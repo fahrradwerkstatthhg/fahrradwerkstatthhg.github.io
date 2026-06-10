@@ -1,16 +1,20 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
-    
+
+    <!--JS-Script Dateien-->
     <script src="/js/color-modes.js" defer></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Kann man ändern bei Bedarf-->
     <meta name="description" content="Offizielle Schulwebseite der Fahrradwerkstatt am HHG">
     <meta name="author" content="Fahrradwerkstatt HHG">
     <title>Fahrradwerkstatt am HHG</title>
     <link rel="icon" type="image/x-icon" href="images/logo_trans.webp">
 
+    <!--CSS-Dateien – Nur für "Effekte" wichtig"-->
     <link href="css/main.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/modals.css" rel="stylesheet">
@@ -18,7 +22,7 @@
   </head>
 
   <body>
-
+    <!-- SVG-Datei, die hier erstellt wird -->
     <svg class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -39,11 +43,13 @@
     <header data-bs-theme="dark"></header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
+          <!-- Links der Text -->
           <img src="images/logo_inv.webp" width="40" height="40" alt="logo"  loading="lazy">
           <a class="navbar-brand" href="index.html"> Fahrradwerkstatt am HHG</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <!-- Farbe der Webseite einstellen Button (links) -->
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
             </ul>
@@ -86,16 +92,19 @@
 
     <main>
 
-      <!--Carousel-->
+      <!--Carousel mit den Bildern -->
       <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <!--Bild 1 und Text-->
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <!-- Bild -->
             <div class="overlay-image" style="background-image: url(images/banner.webp);"></div>
+            <!-- Text -->
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1 class="always-white">Gib dein Fahrrad bei uns ab!</h1>
@@ -104,8 +113,11 @@
               </div>
             </div>
           </div>
+          <!--Bild 2 und Text-->
           <div class="carousel-item">
+            <!-- Bild -->
             <div class="overlay-image" style="background-image: url(images/banner.webp);"></div>
+            <!-- Text -->
             <div class="container">
               <div class="carousel-caption">
                 <h1 class="always-white">Welcher Service darf es sein?</h1>
@@ -114,8 +126,11 @@
               </div>
             </div>
           </div>
+          <!--Bild 3 und Text-->
           <div class="carousel-item">
+            <!-- Bild -->
             <div class="overlay-image" style="background-image: url(images/banner.webp);"></div>
+            <!-- Text -->
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1 class="always-white">Wer sind wir?</h1>
@@ -125,10 +140,13 @@
             </div>
           </div>
         </div>
+        <!--Pfeile rechts und links für zurück und vorwärts-->
+        <!-- links -->
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
+        <!-- rechts -->
         <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -136,7 +154,7 @@
       </div>
 
       <div class="container marketing">
-      <!--Winter Öffnungszeiten
+      <!--Winter Öffnungszeiten "hier die letzten 3 Zeichen von unten einfügen um as zu aktivieren"
       <div class="container marketing">
         <div class="row featurette" id="winter">
           <div class="col-md-7 order-md-2">
@@ -163,7 +181,7 @@
         </div>
         <div class="col-md-5 order-md-1">
           <img class="img-fluid" src="images/bicycle.svg" alt="logo" width="500" height="500" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
-        </div>-->
+        </div> "ab hier entfernen bis zur nächsten Zeile und oben einfügen, wenn das auftauchen soll"-->
       
        
 
@@ -178,19 +196,25 @@
             </p>
             <div class="alert alert-warning" role="alert">
               Bitte geben sie Ihrem Kind den unterschriebenen Haftungsauschluss mit!
+              <!-- pdf – muss man nichts ändern, man kann einfach eine neue Datei mit den gleichen Namen hochladen -->
               <a class="btn btn-primary" href="downloads/dienstleistungsvertrag.pdf" download role="button">Download</a>
             </div>
           </div>
           <div class="col-md-5 order-md-1">
+            <!-- Bild -->
             <img class="img-fluid" src="images/kalender.webp" alt="logo" width="500" height="500" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
           </div>
         </div>
 
+        <!-- Angebote nicht geöffnet -->
         <hr class="featurette-divider" id="angebote">
 
+        <!-- Check -->
         <div class="row">
           <div class="col-lg-4">
+            <!-- Bild -->
             <img src="images/bike-check.webp" alt="bike-check" class="img-fluid" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
+            <!-- Text -->
             <title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
             <h2 class="fw-normal">Bike-Check</h2>
             <p>Fahrtauglich oder nicht?! Gerne inspizieren wir dein Fahrrad ausführlich in unserer Werkstatt.</p>
@@ -200,8 +224,11 @@
               </button>
             </p>
           </div>
+          <!-- Reperatur -->
           <div class="col-lg-4">
+            <!-- Bild -->
             <img src="images/bike-rep.webp" alt="bike-rep" class="img-fluid" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
+            <!-- Text -->
             <title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
             <h2 class="fw-normal">Bike-Reperatur</h2>
             <p>Mal wieder kaputt?! Gerne reparieren wir dein Fahrrad oder tauschen Bauteile aus.</p>
@@ -209,8 +236,11 @@
               Details &raquo;
             </button>
           </div>
+          <!-- Pflege -->
           <div class="col-lg-4">
+            <!-- Bild -->
             <img src="images/bike-pflege.webp" alt="bike-pflege" class="img-fluid" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
+            <!-- Text -->
             <title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
             <h2 class="fw-normal">Bike-Pflege</h2>
             <p>Ziemlich dreckig! Gerne reinigen und warten wir dein Fahrrad bei uns in der Werkstatt.</p>
@@ -220,7 +250,8 @@
           </div>
         </div>
 
-        <!--Angebote-->
+        <!--Angebote wenn man die Buttons gedrückt hat-->
+        <!-- Check offen-->
         <div class="modal fade" id="modalBikeCheck" tabindex="-1" aria-labelledby="bikeCheckModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -238,6 +269,7 @@
           </div>
         </div>
 
+        <!-- Reperatur offen -->
         <div class="modal fade" id="modalBikeRep" tabindex="-1" aria-labelledby="bikeRepModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -255,6 +287,7 @@
           </div>
         </div>
 
+        <!-- Pflege offen -->
         <div class="modal fade" id="modalBikePflege" tabindex="-1" aria-labelledby="bikePflegeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -272,6 +305,7 @@
           </div>
         </div>
 
+        <!-- Über uns -->
         <hr class="featurette-divider" id="uber_uns">
 
         <div class="row featurette">
@@ -280,6 +314,7 @@
             <p class="lead">Die Fahrradwerkstatt am HHG wurde durch das P-Seminar Sport im Jahr 2023 aufgebaut und existiert nun schon im dritten Jahr. Im Schuljahr 25/26 kümmern sich rund 5 fachkundige Schüler um die Inspektion, Reparatur und Pflege der Fahrräder aus der Schulgemeinschaft. Über Zuwachs an interessierten Schüler*innen würden wir uns sehr freuen – einfach vorbeikommen!</p>
           </div>
           <div class="col-md-5">
+            <!-- Bild -->
             <img class="img-fluid rounded" src="images/about_us.webp" alt="about_us" width="500" height="500"aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" loading="lazy">
           </div>
         </div>
