@@ -1,4 +1,4 @@
-https://fahrradwerkstatthhg.github.io
+## https://fahrradwerkstatthhg.github.io
 
 # Infos
 * Die Seite wurde aktualisiert, wenn der Grüne Hacken da ist.
@@ -14,6 +14,12 @@ https://fahrradwerkstatthhg.github.io
 
 * Am besten keine sensiblen Daten hier hochladen, weil alles öffentlich ist (also Passwörter; Kundendaten etc. – ist bis jetzt nicht implementiert)
 
-### WICHTIG: Immer zur main-branch commiten!!
+## WICHTIG: Immer zur main-branch commiten!!
 Es wäre sinnvoll die Commits zu benennen und zu erklären, damit sich andere leichter zurecht finden
 <img width="503" height="527" alt="image" src="https://github.com/user-attachments/assets/4c8ff408-5b1e-43ed-b7da-fdd2981f24d8" />
+
+
+## Am Code arbeiten
+
+Man kann Github mit vielen Editor-Programmen (Ich nutze VS Code) verbinden, dann ist es leichter zu programmieren und Dinge zu ändern.
+Braucht man aber nicht, wenn man nur Text ändern will, weil dann reicht Githun auch aus.
